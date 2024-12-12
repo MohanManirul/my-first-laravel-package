@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('products::layout')
 
 @section('content')
 <h1>Product Details</h1>
