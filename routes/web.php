@@ -9,3 +9,6 @@ Route::get('/', function () {
    return $test->sayHello();
 
 });
+
+
+// require base_path('App/Modules/Products/Routes/web.php');

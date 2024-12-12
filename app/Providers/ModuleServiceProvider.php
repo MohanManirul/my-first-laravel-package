@@ -29,5 +29,9 @@ class ModuleServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(base_path('app/Modules/Blog/Routes/web.php'));
         $this->loadViewsFrom(base_path('app/Modules/Blog/Views'), 'blog');
 
+        // Products Module
+        $this->loadRoutesFrom(base_path('app/Modules/Products/Routes/web.php'));
+        $this->loadViewsFrom(base_path('app/Modules/Products/Views'), 'products');
+
     }
 }
