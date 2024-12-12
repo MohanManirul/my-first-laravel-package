@@ -1,0 +1,20 @@
+{
+    "name": "mohan/nameprint",
+    "description": "this is only for printing a name",
+    "type": "nameprintpackage",
+    "require": {
+        "algolia/scout-extended": "1.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mohan\\Nameprint\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Md.Manirul Islam"
+        }
+    ],
+    "minimum-stability": "stable"
+}
